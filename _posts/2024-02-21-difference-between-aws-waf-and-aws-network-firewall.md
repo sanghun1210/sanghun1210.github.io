@@ -13,7 +13,7 @@ AWS WAF (웹 애플리케이션 방화벽)과 AWS Network Firewall은 모두 악
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
 ```
 
-![작동 방식](../assets/img/aws/WAF_Flowchart.png)
+![작동 방식](/assets/img/aws/WAF_Flowchart.png)
 AWS WAF는 클라우드 기반 웹 애플리케이션 방화벽으로 SQL 인젝션 및 크로스 사이트 스크립팅과 같은 일반적인 웹 공격으로부터 보호합니다. OSI 모델의 애플리케이션 계층(7계층)에서 작동하여 HTTP 및 HTTPS 트래픽을 검사하고 악의적인 요청을 차단할 수 있습니다. AWS WAF는 인터넷에 노출된 웹 애플리케이션을 보호하기에 좋은 선택입니다.
 
 AWS WAF를 사용하면 가용성에 영향을 줄 수 있는 일반적인 웹 공격 및 봇을 방지할 수 있습니다.
