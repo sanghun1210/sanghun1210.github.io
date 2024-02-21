@@ -2,16 +2,13 @@
 title: AWS WAF와 Network Firewall의 차이
 author: shlee
 date: 2024-02-21 00:34:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Blogging, AWS]
 tags: [aws]
 ---
 
 AWS WAF (웹 애플리케이션 방화벽)과 AWS Network Firewall은 모두 악의적인 트래픽으로부터 AWS 리소스를 보호하는 네트워크 보안 서비스입니다. 그러나 각각의 장단점이 있으며, 사용 사례에 따라 가장 적합한 서비스가 다릅니다. 다음 다이어그램은 AWS 문서에서 가져왔습니다.
 
 ## AWS WAF:
-```markdown
-![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
-```
 
 ![작동 방식](/assets/img/aws/WAF_Flowchart.png)
 AWS WAF는 클라우드 기반 웹 애플리케이션 방화벽으로 SQL 인젝션 및 크로스 사이트 스크립팅과 같은 일반적인 웹 공격으로부터 보호합니다. OSI 모델의 애플리케이션 계층(7계층)에서 작동하여 HTTP 및 HTTPS 트래픽을 검사하고 악의적인 요청을 차단할 수 있습니다. AWS WAF는 인터넷에 노출된 웹 애플리케이션을 보호하기에 좋은 선택입니다.
@@ -25,7 +22,6 @@ AWS Network Firewall은 웹 트래픽, 데이터베이스 트래픽, 스트리�
 AWS Network Firewall을 사용하면 네트워크 트래픽에 대한 세밀한 제어를 제공하는 방화벽 규칙을 정의할 수 있습니다. Network Firewall은 AWS Firewall Manager와 함께 작동하여 Network Firewall 규칙을 기반으로 정책을 구축하고 해당 정책을 가상 사설 클라우드(VPC) 및 계정에 중앙 집중식으로 적용할 수 있습니다.
 
 다음은 AWS WAF와 AWS Network Firewall의 주요 차이점을 요약한 표입니다:
-![작동 방식](/assets/img/aws/diff_aws_nfw_sheet.png)
 
 |Feature|AWS WAF|AWS Network Firewall|
 |--------------|---|---|
