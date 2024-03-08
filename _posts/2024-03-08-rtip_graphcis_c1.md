@@ -1,7 +1,7 @@
 ---
 title: R 그래픽스 Chapter1
 author: shlee
-date: 2024-03-08 18:32:00 +0800
+date: 2024-03-08 08:32:00 +0800
 categories: [Blogging, R_tip]
 tags: [Statistics, R_tip]
 ---
