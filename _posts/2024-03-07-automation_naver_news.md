@@ -2,8 +2,8 @@
 title: 시장분석, 산업분석 자동화1
 author: shlee
 date: 2024-03-07 08:32:00 +0800
-categories: [Blogging, 자동화]
-tags: [statistics, automation, python]
+categories: [Blogging, Python]
+tags: [Statistics, Automation, Python]
 ---
 
 주식을 할 때 무엇을 기준으로 매매를 하시나요? 어떤 분들은 차트를 기준으로 매수를 하시는 분들도 있고, 기업을 분석하시는 분들도 있고, 시장 상황, 산업 분석, 또는 뉴스를 기준으로 매수하시는 분들도 있습니다. 보통 이러한 매수 기준을 다음과 같이 분류합니다.

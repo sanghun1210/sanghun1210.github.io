@@ -2,8 +2,8 @@
 title: R 그래픽스 Chapter1
 author: shlee
 date: 2024-03-08 18:32:00 +0800
-categories: [Blogging, R]
-tags: [statistics, automation, R]
+categories: [Blogging, R_tip]
+tags: [statistics, R]
 ---
 
 ```R
