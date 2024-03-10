@@ -6,6 +6,16 @@ categories: [Blogging, R_tip]
 tags: [Statistics, R_tip]
 ---
 
+4차 산업 혁명의 기반이 되는 수많은 응용기술(인공지능, IoT, 핀테크, 스마트 테크놀로지 등)은 여전히 데이터를 중심으로 움직이고 있으며, 데이터에 대한 심도 있는 이해 없이는 출발점에 설 자격조차 주어지지 않느다. 단순한 자료 구조나 알고리즘에 대한 논의를 벗어나면, 도메인별로 겪게 되는 다양한 데이터 생성 수집, 정재, 전처리, 후처리, 정규환, 변환, 통합, 학습, 분석, 시각화, 자산화, 제품화 등 모든 프로세스에서 발생할 수많은 문제에 직면하게 된다. 그럴수록 데이터에 대한 튼튼한 기초와 이해가 필요하다. 
+
+R을 이해하면 수학자와 통계학자들의 사고방식을 이해할수 있다. 그리고 또한 R의 장점은 누구보다도 빨리 그리고 아름답게 데이터를 분석하고 시각화해볼 수 있다는 것이다. 
+
+R에서 grapics 패키지는 표준 배포판의 일부로, 다양한 그래픽을 만드는데 필요한 유요한 함수들을 많이 담고 있다. 그리고 tydyverse 패키지의 일부인 ggplot2로 인해 R에서의 그래픽 관련 기능이 크게 확장되었다. 다음은 ggplot2를 사용한 몇가지 사용방법들을 담고 있다. 
+데이터 셋과 실제 사용한 코드는 다음 Kaggle 주소를 참고할 수 있다.
+
+![My Kaggle](https://www.kaggle.com/datasets/leesanghun1210/kospi-20240308-csv/code)
+
+
 ```R
 library(tidyverse) # metapackage of all tidyverse packages
 if(!require(quantmod)) install.packages("quantmod")
