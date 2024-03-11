@@ -81,7 +81,7 @@ ggplot(df, aes(x=date, y=volume)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_4_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_4_0.png)
     
 
 
@@ -99,7 +99,7 @@ ggplot(df, aes(x=date, y=volume, fill = date)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_6_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_6_0.png)
     
 
 
@@ -118,7 +118,7 @@ ggplot(df, aes(x=date, y=volume, fill = ..y..)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_7_1.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_7_1.png)
     
 
 
@@ -138,7 +138,7 @@ ggplot(df, aes(x=date, y=trade_price)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_9_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_9_0.png)
     
 
 
@@ -165,7 +165,7 @@ ggplot(df, aes(x = date, y = trade_price)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_11_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_11_0.png)
     
 
 
@@ -185,7 +185,7 @@ ggplot() +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_13_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_13_0.png)
     
 
 
@@ -205,7 +205,7 @@ ggplot(df) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_15_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_15_0.png)
     
 
 
@@ -226,7 +226,7 @@ ggplot(df) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_17_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_17_0.png)
     
 
 
@@ -245,7 +245,7 @@ ggplot(df, aes(sample=trade_price)) +
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_19_0.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_19_0.png)
     
 
 
@@ -299,6 +299,10 @@ g1 + g2 + g3 + g4 + plot_layout(ncol = 2, byrow = TRUE)
 
 
     
-![png](kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_22_1.png)
+![png](/assets/img/posts/kospi-with-r-graphics-chapter2_files/kospi-with-r-graphics-chapter2_22_1.png)
     
 
+
+데이터 셋과 실제 사용한 코드는 다음 Kaggle 주소를 참고할 수 있다.
+
+<https://www.kaggle.com/datasets/leesanghun1210/kospi-20240308-csv/code>

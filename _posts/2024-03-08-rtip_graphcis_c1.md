@@ -13,7 +13,7 @@ R을 이해하면 수학자와 통계학자들의 사고방식을 이해할수 �
 R에서 grapics 패키지는 표준 배포판의 일부로, 다양한 그래픽을 만드는데 필요한 유요한 함수들을 많이 담고 있다. 그리고 tydyverse 패키지의 일부인 ggplot2로 인해 R에서의 그래픽 관련 기능이 크게 확장되었다. 다음은 ggplot2를 사용한 몇가지 사용방법들을 담고 있다. 
 데이터 셋과 실제 사용한 코드는 다음 Kaggle 주소를 참고할 수 있다.
 
-![My Kaggle](https://www.kaggle.com/datasets/leesanghun1210/kospi-20240308-csv/code)
+<https://www.kaggle.com/datasets/leesanghun1210/kospi-20240308-csv/code>
 
 
 ```R
