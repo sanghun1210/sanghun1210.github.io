@@ -1,7 +1,7 @@
 ---
 title: 시장분석, 산업분석 자동화1
 author: shlee
-date: 2024-03-07 08:32:00 +0800
+date: 2024-02-28 08:32:00 +0800
 categories: [Blogging, Python]
 tags: [Statistics, Automation, Python]
 ---
