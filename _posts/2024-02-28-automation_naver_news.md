@@ -33,13 +33,16 @@ tags: [Statistics, Automation, Python]
 이를 중심으로 데일리 뉴스, 산업분석, 투자전략을 가져와서 데이터를 파일로 저장하는 코드는 다음 레포지토리에 작성해놓았습니다.
 간단합니다.
 
-![뉴스 크롤링 Repository](https://github.com/sanghun1210/StockNewsMiner)
+<https://github.com/sanghun1210/StockNewsMiner>
 
 코드는 네이버 주식 섹션에서 일일, 산업 및 투자 연구 보고서의 웹 페이지 내용을 스크래핑하여 텍스트 파일로 저장하는 파이썬 스크립트입니다. 스크립트는 크게 세 부분으로 나뉩니다: 웹 페이지에서 링크 리스트를 가져오는 함수, 주어진 링크의 내용을 특정 파일에 저장하는 함수, 그리고 실제로 웹 페이지의 내용을 추출하여 파일에 저장하는 기능을 실행하는 메인 부분입니다.
 
-todo : chat gpt api를 이용하여 크롤링 한 결과를 바탕으로 분석결과 요약 자동화
-       AWS CloudWatch를 event 및 Lambda를 통한 자동화
-       스크랩한 데이터 분류 및 R을 사용한 통계 데이터 생성 및 분석
+### ToDo list
+
+- [ ] Job
+  - [x] chat gpt api를 이용하여 크롤링 한 결과를 바탕으로 분석결과 요약 자동화
+  - [x] AWS CloudWatch를 event 및 Lambda를 통한 자동화
+  - [ ] 스크랩한 데이터 분류 및 R을 사용한 통계 데이터 생성 및 분석
 
         
 
