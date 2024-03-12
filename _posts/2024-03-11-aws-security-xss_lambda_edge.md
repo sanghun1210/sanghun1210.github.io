@@ -21,8 +21,6 @@ tags: [AWS, Security]
 
 크로스 사이트 스크립팅은 스크립트 언어와 취약한 코드를 공격 대상으로 하며, 해킹의 주요 목적은 사용자의 정보를 도용하는 것이며, 로그인 입력란을 감염시켜 로그인 세부 정보와 쿠키를 탈취하는 방식으로 진행됩니다. 악성 소프트웨어는 사용자의 세부 정보를 기록해 해커에게 전송하고, 해커는 해당 정보를 사용해 피해자의 계정을 제어할 수 있게 됩니다.
 
-xss 그림
-
 ## 보안 헤더란 무엇인가요?
 
 보안 헤더는 서버에서 HTTP 응답에 포함된 헤더 그룹으로, 브라우저에게 사이트 콘텐츠를 처리할 때 어떻게 행동해야 하는지 알려줍니다. 예를 들어, X-XSS-Protection은 Internet Explorer와 Chrome이 크로스 사이트 스크립팅(XSS) 공격을 감지할 때 페이지 로딩을 중지하도록 하는 헤더입니다. 다음은 구현할 각 헤더의 목록과 추가 정보에 대한 링크입니다.
@@ -75,7 +73,7 @@ Origin Response – 이 이벤트는 원본이 요청에 대한 응답을 반환
 이 코드는 응답의 내용을 가져오고, 새 헤더를 설정한 다음, 새 보안 헤더를 포함한 업데이트된 응답을 반환합니다.
 ![png](/assets/img/posts/aws_security_tip_xss_lamda_edge/4.png){:width="80%" height="80%"}
 
-```JavaScript
+```javascript
 'use strict';
 exports.handler = (event, context, callback) => {
     
