@@ -19,6 +19,7 @@ order: 4
 - **클라우드**: `AWS`, `OpenSearch`, `Terraform`
 - **기타**: `ElasticSearch`, `.NET`, `Git`, `Jenkins` `Slack`
 
+
 ## **소프트 스킬**
 - **발표** 
 - **협업** 
@@ -36,13 +37,22 @@ order: 4
 - Certified Kubernetes Administrator (CKA)
 
 
-## 기타 활동
+## **기타 활동**
 - 메가존클라우드 EKS 사내 스터디 그룹 
 - 메가존클라우드 Terraform 을 깊이 있게 다루는 사내 스터디 그룹 
 - AWS 클라우드 중앙 집중형 네트워크 아키텍처 설계와 구축 전략 발표 (메가존 Lesson & Learn)
 - AWS Opensearch를 이용한 로그 분석 및 대시보드 개발, 고객사 대상 교육 실시
 - 펜타시큐리티 개발 스터디 그룹 - 온라인 예배 영상 플랫폼 개발 (창업공모전 입상 - 벤처혁신사업부 주관)
 - 펜타시큐리티 MVVM 패턴 활용 방법에 대한 사내 발표
+
+## **Open Source**
+- **ml4stock**: [github] (https://github.com/sanghun1210/ml4stock)
+  - pykrx 라이브러리를 활용하여 한국거래소(KRX)에서 종목 정보를 수집하고, 기본적 분석 및 기술적 분석을 통해 투자 가치가 높은 종목을 선별
+  - python, pykrx, scikit-learn, BeautifulSoup, pands 등 활용
+- **light_salt_project**: [github] (https://github.com/sanghun1210/light_salt_project)
+  - 온라인 예배를 위한 영상 플랫폼
+  - 기술 보증기금 벤처혁신사업부 창업공모전 입상
+  - Django, Javascript, python mysql 등 활용
 
 
 
