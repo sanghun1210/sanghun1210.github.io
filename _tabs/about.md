@@ -46,13 +46,17 @@ order: 4
 - 펜타시큐리티 MVVM 패턴 활용 방법에 대한 사내 발표
 
 ## **Open Source**
-- **ml4stock**: [github] (https://github.com/sanghun1210/ml4stock)
+- **ml4stock**: [https://github.com/sanghun1210/ml4stock](https://github.com/sanghun1210/ml4stock)
   - pykrx 라이브러리를 활용하여 한국거래소(KRX)에서 종목 정보를 수집하고, 기본적 분석 및 기술적 분석을 통해 투자 가치가 높은 종목을 선별
   - python, pykrx, scikit-learn, BeautifulSoup, pands 등 활용
-- **light_salt_project**: [github] (https://github.com/sanghun1210/light_salt_project)
+- **light_salt_project**: [https://github.com/sanghun1210/light_salt_project](https://github.com/sanghun1210/light_salt_project)
   - 온라인 예배를 위한 영상 플랫폼
   - 기술 보증기금 벤처혁신사업부 창업공모전 입상
   - Django, Javascript, python mysql 등 활용
+- **vncMacro**: [https://github.com/sanghun1210/vncMacro](https://github.com/sanghun1210/vncMacro)
+  - 윈도우상에서 웹브라우저 자동화 작업을 수행
+  - 웹브라우저의 입력 자동화, 출력 확인 등
+  - C#, winform, chromewebdriver 활용
 
 
 
