@@ -56,7 +56,7 @@ order: 4
 - **vncMacro**: [https://github.com/sanghun1210/vncMacro](https://github.com/sanghun1210/vncMacro)
   - 윈도우상에서 웹브라우저 자동화 작업을 수행
   - 웹브라우저의 입력 자동화, 출력 확인 등
-  - C#, winform, chromewebdriver 활용
+  - C#, Winform, ChromeWebdriver 활용
 
 
 
