@@ -29,6 +29,7 @@ order: 4
 - **꼼꼼함** 
 
 ## **자격증 및 인증**
+- AWS Certified Security - Specialty 
 - AWS Certified Machine Learning - Specialty 
 - HashiCorp Certified: Terraform Associate 
 - AWS Certified Solutions Architect Professional 
@@ -38,6 +39,7 @@ order: 4
 
 
 ## **기타 활동**
+- Finops - Linux Foundation program 수료
 - 메가존클라우드 EKS 사내 스터디 그룹 
 - 메가존클라우드 Terraform 을 깊이 있게 다루는 사내 스터디 그룹 
 - AWS 클라우드 중앙 집중형 네트워크 아키텍처 설계와 구축 전략 발표 (메가존 Lesson & Learn)
